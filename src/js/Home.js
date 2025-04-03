@@ -1,5 +1,6 @@
 import "../css/Home.css";
 import Snorlax from '../images/snorlax.png'
+import Pikachu from '../images/pikachu.gif'
 
 export default function Home() {
   return (
@@ -17,6 +18,48 @@ export default function Home() {
           <img src={Snorlax} alt="Perfil" />
         </div>
       </header>
+      <section id="sobre" className="section">
+        <h2>Sobre Mim</h2>
+        <p>Sou um desenvolvedor front-end apaixonado por criar interfaces de usuário elegantes e<br /> funcionais. Com experiência em React, Next.js e TypeScript, me dedico a construir aplicações web<br /> modernas que oferecem excelente experiência ao usuário. Minha abordagem combina design<br /> criativo com código limpo e eficiente.<br/> <br/> Além do desenvolvimento, tenho interesse em UX/UI design e estou sempre aprendendo novas<br /> tecnologias para expandir minhas habilidades. Acredito que a melhor tecnologia é aquela que<br /> resolve problemas reais de forma simples e eficaz.</p>
+        <hr className="linha"></hr>
+      </section>
+      <section id="projetos" className="section2">
+        <h2>Meus Projetos</h2>
+        <div className="projects-container">
+          <div className="project-card">
+            <img src={Pikachu} alt="pikachu"/>
+            <h3>E-commerce Dashboard</h3>
+            <p>React, Next.js, Tailwind CSS</p>
+            <p>Um dashboard completo para gerenciamento de loja online...</p>
+            <div className="project-buttons">
+              <button className="code-btn">Código</button>
+              <button className="demo-btn">Demo</button>
+            </div>
+          </div>
+
+          <div className="project-card">
+            <img src={Pikachu} alt="pikachu"/>
+            <h3>App de Finanças Pessoais</h3>
+            <p>React, TypeScript, Chart.js</p>
+            <p>Aplicativo para controle de finanças pessoais...</p>
+            <div className="project-buttons">
+              <button className="code-btn">Código</button>
+              <button className="demo-btn">Demo</button>
+            </div>
+          </div>
+
+          <div className="project-card">
+            <img src={Pikachu} alt="pikachu"/>
+            <h3>Plataforma de Cursos</h3>
+            <p>Next.js, Prisma, PostgreSQL</p>
+            <p>Plataforma de cursos online...</p>
+            <div className="project-buttons">
+              <button className="code-btn">Código</button>
+              <button className="demo-btn">Demo</button>
+            </div>
+          </div>
+        </div>
+      </section>
     </div>
   );
 }

@@ -5,7 +5,8 @@ import Navbar from './js/Nav';
 import Sobre from './js/Sob' ;
 import Projeto from './js/Proj';
 import Habilidades from './js/Hab';
-import Contatos from './js/Cont'
+import Contatos from './js/Cont';
+import Footer from './js/Footer'
 
 function App() {
   return (

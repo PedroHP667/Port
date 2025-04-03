@@ -24,7 +24,7 @@ export default function Navbar(){
                         <Link href="#contato" className="link">
                             Contato
                         </Link>
-                        <Link href="#github" className="link-logo">
+                        <Link to="https://github.com/PedroHP667" className="link-logo">
                          <img src={Github} alt="GitHub" className="logo-g" />
                         </Link>
                         <Link href="#linkedin" className="link-logo">

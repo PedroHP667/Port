@@ -9,20 +9,20 @@ export default function Navbar(){
             <main className="main-nav">
                 <nav className="nav">
                     <div className="nav-links">
-                        <Link href="/" className="link-ph">
-                            Pedro Henrique
+                    <Link to="/" className="link-ph">
+                        Pedro Henrique
                         </Link>
-                        <Link href="#sobre" className="link">
-                            Sobre
+                        <Link to="/Sobre" className="link">
+                        Sobre
                         </Link>
-                        <Link href="#projetos" className="link">
-                            Projetos
+                        <Link to="/Projeto" className="link">
+                        Projetos
                         </Link>
-                        <Link href="#habilidades" className="link">
-                            Habilidades
+                        <Link to="/Habilidades" className="link">
+                        Habilidades
                         </Link>
-                        <Link href="#contato" className="link">
-                            Contato
+                        <Link to="/Contatos" className="link">
+                        Contato
                         </Link>
                         <Link to="https://github.com/PedroHP667" className="link-logo">
                          <img src={Github} alt="GitHub" className="logo-g" />

@@ -1,14 +1,20 @@
 .App {
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  min-height: 285vh; 
 }
+
+
+.content {
+  flex: 1;
+}
+
+
 .footer {
   background-color: #222;
-  color: #fff;
+  color: white;
   text-align: center;
   padding: 15px 0;
-  position: relative;
-  bottom: 0;
-  width: 100%;
 }
 
 .footer-links {
